@@ -1,0 +1,137 @@
+   * {
+       margin: 0;
+       padding: 0;
+   }
+   
+   header {
+       background-image: url('../images/layer-10.jpg');
+       width: 100%;
+       max-width: 1600px;
+       height: 770px;
+   }
+   
+   .brand {
+       color: #ffffff;
+       font-family: Montserrat;
+       font-size: 24px;
+       font-weight: 700;
+       line-height: 36px;
+   }
+   
+   .brand,
+   .item-link {
+       text-decoration: none;
+       transition: all 0.3s linear 0s;
+       color: #fff;
+   }
+   
+   .area {
+       display: flex;
+       margin-right: auto;
+       margin-left: auto;
+       flex-flow: row wrap;
+       align-items: stretch;
+   }
+   
+   .navbar {
+       justify-content: space-between;
+       padding: 40px 230px 0 229px;
+   }
+   
+   .item-link {
+       margin-right: 20px;
+   }
+   
+   .list {
+       color: #ffffff;
+       font-family: Montserrat;
+       font-size: 14px;
+       font-weight: 400;
+       line-height: 24px;
+       display: flex;
+       flex-flow: row nowrap;
+       align-items: center;
+   }
+   
+   .startup {
+       color: #ffffff;
+       font-weight: 400;
+       line-height: 24px;
+       font-family: Montserrat;
+       font-size: 48px;
+       font-weight: 400;
+       text-transform: uppercase;
+       margin-bottom: 25px;
+   }
+   
+   .template {
+       color: #ffffff;
+       font-weight: 400;
+       line-height: 24px;
+       font-family: "Roboto Slab";
+       font-size: 20px;
+       font-weight: 400;
+   }
+   
+   .welcome {
+       display: flex;
+       flex-direction: column;
+       text-align: center;
+       margin-top: 323px;
+   }
+   
+   .button {
+       cursor: pointer;
+       width: 111px;
+       border: 1px solid #ffffff;
+       border-radius: 3px;
+       padding: 5px;
+       margin: 69px 0 0 740px;
+   }
+   
+   .button a {
+       text-decoration: none;
+       color: #ffffff;
+       font-family: Montserrat;
+       font-size: 16px;
+       font-weight: 400;
+       line-height: 24px;
+       text-transform: uppercase;
+   }
+   
+   .text {
+       text-align: center;
+       margin-top: 65px;
+   }
+   
+   .info {
+       color: #555555;
+       font-family: Montserrat;
+       font-size: 20px;
+       font-weight: 400;
+       line-height: 24px;
+       text-transform: uppercase;
+       margin-bottom: 30px;
+   }
+   
+   hr {
+       width: 50px;
+       height: 2px;
+       background-color: #555555;
+       margin-left: 770px;
+   }
+   
+   .info2 {
+       color: #555555;
+       font-family: "Roboto Slab";
+       font-size: 16px;
+       font-weight: 400;
+       line-height: 24px;
+       margin-top: 30px;
+   }
+   
+   .services {
+       display: flex;
+       text-align: center;
+       margin-top: 35px;
+   }
