@@ -113,6 +113,7 @@
        line-height: 24px;
        text-transform: uppercase;
        margin-bottom: 30px;
+       padding-top: 99px;
    }
    
    hr {
@@ -161,4 +162,35 @@
    
    .content {
        display: flex;
+   }
+   
+   .slider {
+       display: flex;
+       justify-content: center;
+       margin-top: 71px;
+   }
+   
+   .social_block {
+       display: flex;
+       justify-content: center;
+       list-style: none;
+       text-decoration: none;
+   }
+   
+   .slider_element {
+       margin-right: 29px;
+   }
+   
+   .social_block li {
+       margin-right: 16px;
+       margin-top: -39px;
+       font-size: 22px;
+   }
+   
+   .social_block li:hover {
+       background-color: #555555;
+   }
+   
+   .social_block li a {
+       text-decoration: none;
    }
