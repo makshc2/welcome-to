@@ -100,7 +100,8 @@
    }
    
    .text,
-   .about {
+   .about,
+   .main_works {
        text-align: center;
        margin-top: 65px;
    }
@@ -181,14 +182,19 @@
        margin-right: 29px;
    }
    
+   .slider_element:hover li {
+       display: block;
+   }
+   
+   .image:hover {
+       background: #555555;
+   }
+   
    .social_block li {
        margin-right: 16px;
        margin-top: -39px;
        font-size: 22px;
-   }
-   
-   .social_block li:hover {
-       background-color: #555555;
+       display: none;
    }
    
    .social_block li a {
