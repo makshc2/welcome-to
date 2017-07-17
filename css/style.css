@@ -6,7 +6,6 @@
    header {
        background-image: url('../images/layer-10.jpg');
        width: 100%;
-       max-width: 1600px;
        height: 770px;
    }
    
@@ -230,6 +229,31 @@
    .menu_works-element li a {
        text-decoration: none;
    }
+   /*-----------------------------*/
+   
+   .holder {
+       position: relative;
+       width: 360px;
+       height: 320px;
+       background-image: url('../images/layer-18.jpg');
+       margin: 100px auto;
+   }
+   
+   .block {
+       position: absolute;
+       text-align: center;
+       padding-top: 100px;
+       width: 360px;
+       height: 220px;
+       background-color: #c0301c;
+       opacity: 0.7;
+       display: none;
+   }
+   
+   .holder:hover .block {
+       display: block;
+   }
+   /*-----------------------------*/
    
    .grid {
        width: 100%;
@@ -431,21 +455,21 @@
    .main_contact-form input[type="email"] {
        width: 350px;
        height: 44px;
-       border: 1px solid gray;
        margin: 10px;
+       border: 1px solid #555555;
    }
    
    .main_contact-form textarea {
-       width: 730px;
+       width: 740px;
        height: 104px;
-       border: 1px solid #555555;
        margin: 10px;
+       border: 1px solid #555555;
    }
    
     ::-webkit-input-placeholder,
     ::-webkit-textarea-placeholder {
-       padding: 10px;
        color: #555555;
+       opacity: 0.7;
        font-family: "Roboto Slab";
        font-size: 12px;
        font-weight: 400;
@@ -467,6 +491,18 @@
        background-color: #ffffff;
    }
    
+   .main_contact-form input[type="text"],
+   .main_contact-form input[type="email"],
+   .main_contact-form textarea {
+       padding: 5px 0 0 10px;
+   }
+   
+   input[type="text"]:focus,
+   input[type="email"]:focus,
+   textarea:focus {
+       border: 1px solid red;
+   }
+   
    .main_contact-form i {
        font-size: 12px;
        font-weight: 400;
@@ -475,7 +511,7 @@
    }
    
    footer {
-       width: 1600px;
+       width: 100%;
        height: 307px;
        background-color: #c0301c;
    }
