@@ -192,6 +192,14 @@
        font-size: 22px;
    }
    
+   .social_block li a:hover {
+       color: red;
+   }
+   
+   .social_block li a {
+       color: white;
+   }
+   
    .slider_element h5 {
        text-align: center;
        color: #555555;
@@ -229,14 +237,13 @@
    .menu_works-element li a {
        text-decoration: none;
    }
-   /*-----------------------------*/
    
    .holder {
        position: relative;
        width: 360px;
        height: 320px;
-       background-image: url('../images/layer-18.jpg');
-       margin: 100px auto;
+       margin: 30px auto;
+       display: flex;
    }
    
    .block {
@@ -253,41 +260,40 @@
    .holder:hover .block {
        display: block;
    }
-   /*-----------------------------*/
+   
+   .block_element-button {
+       width: 100px;
+       height: 38px;
+       background-color: #ffffff;
+       color: #c0301c;
+       font-family: "Roboto Slab";
+       font-size: 14px;
+       font-weight: 400;
+       line-height: 24px;
+       text-transform: uppercase;
+       border: none;
+   }
    
    .grid {
        width: 100%;
-       max-width: 1920px;
-       min-width: 460px;
-       margin: 0 auto;
-       padding: 0 30px;
+       padding: 0 100px;
        display: flex;
        flex-wrap: wrap;
        box-sizing: border-box;
    }
    
-   .grid-item {
-       min-height: 200px;
-       margin: 0 10px 20px;
-       flex: 1 1 calc(33.33%-20px);
-       display: flex;
-       justify-content: center;
-       align-items: center;
-   }
-   
-   .grid-item:hover img {
-       opacity: 0.7;
-   }
-   
-   .grid-ithem-element {
-       display: flex;
-       flex-direction: column;
-   }
-   
-   .grid-ithem-element h6 {
+   .block h6 {
        color: #ffffff;
        font-family: Montserrat;
        font-size: 18px;
+       font-weight: 400;
+       line-height: 24px;
+   }
+   
+   .block p {
+       color: #ffffff;
+       font-family: "Roboto Slab";
+       font-size: 12px;
        font-weight: 400;
        line-height: 24px;
    }
@@ -363,6 +369,10 @@
        font-weight: 400;
        font-style: italic;
        line-height: 24px;
+   }
+   
+   .main_blog-element-info h5 span {
+       color: red;
    }
    
    .main_blog-element-info p {
@@ -508,6 +518,10 @@
        font-weight: 400;
        line-height: 20px;
        color: #555555;
+   }
+   
+   .fa-star:before {
+       color: red;
    }
    
    footer {
