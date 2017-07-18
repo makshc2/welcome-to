@@ -275,8 +275,8 @@
    }
    
    .grid {
-       width: 100%;
-       padding: 0 100px;
+       width: 98%;
+       padding: 0 230px;
        display: flex;
        flex-wrap: wrap;
        box-sizing: border-box;
