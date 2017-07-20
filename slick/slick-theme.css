@@ -65,7 +65,7 @@
     font-family: 'slick';
     font-size: 30px;
     line-height: 1;
-    opacity: .75;
+    opacity: .5;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -93,7 +93,7 @@
 
 [dir='rtl'] .slick-next {
     right: auto;
-    left: -25px;
+    left: 15px;
 }
 
 .slick-next:before {
