@@ -100,11 +100,15 @@
        text-transform: uppercase;
    }
    
+   .button:hover {
+       background-color: black;
+       opacity: 0.5;
+   }
+   
    .text,
    .about,
    .main_works {
        text-align: center;
-       margin-top: 65px;
    }
    
    .info {
@@ -115,7 +119,14 @@
        line-height: 24px;
        text-transform: uppercase;
        margin-bottom: 30px;
-       padding-top: 99px;
+   }
+   
+   section {
+       padding: 60px 0 50px 0;
+   }
+   
+   #about {
+       background-color: #f8f8f8;
    }
    
    hr {
@@ -132,6 +143,19 @@
        font-weight: 400;
        line-height: 24px;
        margin-top: 30px;
+   }
+   
+   i.fa.fa-font,
+   i.fa.fa-life-ring,
+   i.fa.fa-hashtag {
+       color: red;
+       font-size: 60px;
+   }
+   
+   .clean:hover i,
+   .rock:hover i,
+   .expert:hover i {
+       opacity: 0.4;
    }
    
    .services {
@@ -156,10 +180,6 @@
        font-size: 14px;
        font-weight: 400;
        line-height: 24px;
-   }
-   
-   .container {
-       background-color: #f8f8f8;
    }
    
    .content {
@@ -243,6 +263,10 @@
        text-decoration: none;
    }
    
+   .menu_works-element li:hover a {
+       color: red;
+   }
+   
    .holder {
        position: relative;
        width: 360px;
@@ -269,6 +293,7 @@
    .block_element-button {
        width: 100px;
        height: 38px;
+       margin-left: 130px;
        background-color: #ffffff;
        color: #c0301c;
        font-family: "Roboto Slab";
@@ -278,6 +303,12 @@
        text-transform: uppercase;
        border: none;
        cursor: pointer;
+       border: 1px solid white;
+   }
+   
+   .block_element-button a {
+       text-decoration: none;
+       color: red;
    }
    
    .grid {
@@ -341,7 +372,7 @@
        display: flex;
    }
    
-   .main_blog-elemen-date p {
+   .main_blog-elemen-date-october {
        margin-right: 10px;
        padding: 15px;
        border: 2px solid #555555;
@@ -360,7 +391,7 @@
        width: 70%;
    }
    
-   .main_blog-element-info h4 {
+   .main_blog-elemen-date h4 {
        color: #555555;
        font-family: Montserrat;
        font-size: 16px;
@@ -369,7 +400,7 @@
        text-transform: uppercase;
    }
    
-   .main_blog-element-info h5 {
+   .main_blog-elemen-date h5 {
        color: #777777;
        font-family: "Roboto Slab";
        font-size: 13px;
@@ -378,7 +409,7 @@
        line-height: 24px;
    }
    
-   .main_blog-element-info h5 span {
+   .main_blog-elemen-date h5 span {
        color: red;
    }
    
@@ -401,8 +432,15 @@
    }
    
    .main_blog-element-info:hover a,
-   .main_blog-element-info:hover h4 {
+   .main_blog-elemen-date:hover h4 {
        color: #c0301c;
+   }
+   
+   .main_blog-element-line {
+       margin-left: 0;
+       height: 1px;
+       background-color: #dddddd;
+       width: 100%;
    }
    
    .slider_clients-element {
@@ -548,10 +586,14 @@
        text-transform: uppercase;
    }
    
-   .footer_element {
+   .footer_element ul {
        display: flex;
        justify-content: center;
        padding: 50px;
+   }
+   
+   .footer_element ul li {
+       list-style: none;
    }
    
    .footer_element-social a {
@@ -559,4 +601,7 @@
        color: #ffffff;
        width: 35px;
        height: 35px;
+       padding: 7px;
+       border: 2px solid white;
+       border-radius: 59%;
    }
